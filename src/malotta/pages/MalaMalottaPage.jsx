@@ -1,8 +1,11 @@
 import { Typography } from '@mui/material'
 import React from 'react'
+import { MalottaLayout } from '../layout/MalottaLayout'
 
 export const MalaMalottaPage = () => {
   return (
-        <Typography variant='h1'>MalaMalotta</Typography>
+        <MalottaLayout>
+          <Typography>MAlotta</Typography>
+        </MalottaLayout>
   )
 }
